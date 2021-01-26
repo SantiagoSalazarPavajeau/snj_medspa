@@ -1,5 +1,68 @@
 .App {
-  text-align: center;
+  background-color: green;
+  display: flex;
+  justify-content: center;
+  height: 100%;
+}
+
+.App-header {
+  display: grid;
+  grid-template-columns: [left] 1fr [right];
+  width: 80%;
+}
+
+.top-header{
+  background-color: greenyellow;
+  height: 50px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.logo-header{
+  background-color: white;
+  height: 200px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.banner-header{
+  background-color: grey;
+  height: 500px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.navbar{
+  position: absolute;
+  top: 29%;
+  left: 15%;
+  width: 70%;
+  height: auto;
+  background-color: green;
+  border-radius: 40px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+/* make these links responsive */
+.nav-link{
+ color: white;
+ padding: 5px;
+ /* flex: 1; */
+ height: 80px;
+ align-items: center;
+}
+
+.nav-link:hover{
+  background-color: white;
+  color: black;
+}
+
+.App-link {
+  color: #61dafb;
 }
 
 .App-logo {
@@ -11,21 +74,6 @@
   .App-logo {
     animation: App-logo-spin infinite 20s linear;
   }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
 }
 
 @keyframes App-logo-spin {
