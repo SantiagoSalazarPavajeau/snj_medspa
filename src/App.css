@@ -26,7 +26,7 @@
   align-items: center;
 }
 
-.banner-header{
+.banner{
   background-color: grey;
   height: 500px;
   display: flex;
@@ -60,6 +60,26 @@
   background-color: white;
   color: black;
 }
+
+.services{
+  height: 500px;
+  background-color: blue;
+  display: flex;
+  justify-content: space-around;
+}
+
+.card{
+  background-color: green;
+  height: 200px;
+  width: 200px;
+  margin: 20px;
+}
+
+.footer{
+  height: 100px;
+  background-color: greenyellow;
+}
+
 
 .App-link {
   color: #61dafb;

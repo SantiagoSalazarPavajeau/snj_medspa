@@ -3,7 +3,7 @@ import React from 'react';
 const Banner = () => {
     return(
         <>
-            <div className="banner-header">
+            <div className="banner">
                 Welcome to Snj Medspa
             </div>
         </>
